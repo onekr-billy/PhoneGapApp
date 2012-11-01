@@ -1,0 +1,1 @@
+define(function(e,t,n){var r=e("./switchable");n.exports=r.extend({attrs:{autoplay:!0,circular:!0}})});
