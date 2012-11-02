@@ -16,9 +16,6 @@ define(function (require, exports, module) {
 
                 var fetchSuccessA1 = function (collection, result) {
 
-                    console.log(collection);
-                    console.log(result);
-
                     var domArray = [];
                     collection.forEach(function (model, i) {
                         domArray.push('<div data-src="' + model.get("pic_url") + '" data-link="/goodstopic.aspx?id=' + model.get("id") + '"></div>');
